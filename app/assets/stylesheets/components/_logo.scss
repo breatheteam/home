@@ -1,0 +1,25 @@
+.logo {
+  font-size: 6em;
+  position: relative;
+  margin: 0 auto;
+  width: 262px;
+
+  .logo-highlight {
+    color: $font-body-color;
+    font-family: $font-family-logo-highlight;
+    right: -12px;
+    position: absolute;
+    text-transform: lowercase;
+    top: 5px;
+  }
+
+  @include media(">=medium") {
+    font-size: 8em;
+    width: 348px;
+  }
+
+  @include media(">=large") {
+    font-size: 10em;
+    width: 437px;
+  }
+}
