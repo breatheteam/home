@@ -1,0 +1,15 @@
+.logo {
+  color: $white;
+  position: relative;
+  margin: 0 auto;
+  width: 4.38em;
+
+  .logo-highlight {
+    color: $font-body-color;
+    font-family: $font-family-logo-highlight;
+    right: -12px;
+    position: absolute;
+    text-transform: lowercase;
+    top: 5px;
+  }
+}

@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300|Roboto:700|Dawning+of+a+New+Day);
+
+$font-family-body: 'Lato', sans-serif;
+$font-family-header: 'Roboto', sans-serif;
+$font-family-logo-highlight: 'Dawning of a New Day', cursive;
+
+$first-color: #08C0EF;
+$second-color: #FFCE09;
+
+$black: #000000;
+$white: #ffffff;
+
+$font-body-color: $black;
+$font-header-color: $white;
+
+$link-color: $black;
+$link-color-hover: #9A00BA;
+
+$breakpoints: (
+  small: 400px,
+  medium: 768px,
+  large: 1024px
+);
