@@ -1,8 +1,8 @@
 .logo {
-  font-size: 6em;
+  color: $white;
   position: relative;
   margin: 0 auto;
-  width: 262px;
+  width: 4.38em;
 
   .logo-highlight {
     color: $font-body-color;
@@ -11,15 +11,5 @@
     position: absolute;
     text-transform: lowercase;
     top: 5px;
-  }
-
-  @include media(">=medium") {
-    font-size: 8em;
-    width: 348px;
-  }
-
-  @include media(">=large") {
-    font-size: 10em;
-    width: 437px;
   }
 }

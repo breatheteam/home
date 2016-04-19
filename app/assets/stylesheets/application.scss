@@ -1,12 +1,16 @@
 // Configs ==================================
 @import "configs/theme";
-@import "configs/typography";
 
 // Vendors ==================================
 @import "include_media";
 
 // Base =====================================
+@import "base/typography";
 @import "base/resets";
+@import "base/grid";
+
+// Pages ====================================
+@import "pages/home/welcome";
 
 // Components ===============================
 @import "components/logo";

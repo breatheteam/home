@@ -13,8 +13,11 @@ $white: #ffffff;
 $font-body-color: $black;
 $font-header-color: $white;
 
+$link-color: $black;
+$link-color-hover: #9A00BA;
+
 $breakpoints: (
-  small: 300px,
+  small: 400px,
   medium: 768px,
   large: 1024px
 );
